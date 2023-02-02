@@ -17,27 +17,26 @@ namespace Metody02
             InitializeComponent();
         }
 
-      
 
 
 
-        public static void UlozitCisla(double[] pole, TextBox textBox)
+
+        double[] pole;
+
+    
+        static private void UlozitDoPole(double[] pole, TextBox textBox)
         {
-            
-            pole = new double[textBox.Lines.Count()];
-            for (int i = 0; i < textBox.Lines.Count(); i++)
+            for (int i = 0; i < textBox.Lines.Length; i++)
             {
-                pole[i] = double.Parse(textBox.Lines[i]);
+                pole[i] = int.Parse(textBox.Lines[i]);
             }
-            
         }
-
-       public static void ZobrazitPole(ListBox listBox, double[] pole)
+        static private void ZobrazitPole(double[] pole, ListBox listbox)
         {
-            listBox.Items.Clear();
-            for (int i = 0; i < pole.Length; i++)
+            listbox.Items.Clear();
+            foreach (double x in pole)
             {
-                listBox.Items.Add(pole[i]);
+                listbox.Items.Add(x);
             }
         }
 
@@ -55,10 +54,12 @@ namespace Metody02
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double[] pole = null;
+           
+            pole = new double[textBox1.Lines.Length];
+            UlozitDoPole(pole, textBox1);
 
-            UlozitCisla(pole, textBox1);
-            ZobrazitPole(listBox1, pole);
+           
+            ZobrazitPole(pole, listBox1);
 
             if (JeRostouci(pole))
             {
