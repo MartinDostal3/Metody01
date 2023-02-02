@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metody03", "Metody03\Metody
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metody04", "Metody04\Metody04.csproj", "{E455CDDC-D4F6-4E59-A740-9E189AB5CBBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funkce06", "Funkce06\Funkce06.csproj", "{F202A2FD-D101-4378-B32D-C2005AF632D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E455CDDC-D4F6-4E59-A740-9E189AB5CBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E455CDDC-D4F6-4E59-A740-9E189AB5CBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E455CDDC-D4F6-4E59-A740-9E189AB5CBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F202A2FD-D101-4378-B32D-C2005AF632D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F202A2FD-D101-4378-B32D-C2005AF632D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F202A2FD-D101-4378-B32D-C2005AF632D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F202A2FD-D101-4378-B32D-C2005AF632D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
