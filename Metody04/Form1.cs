@@ -24,7 +24,7 @@ namespace Metody04
             int soucetLichych = 0;
             if(obsahujeCifru(retezec, out pocetCifer, out soucetLichych))
             {
-                MessageBox.Show("Ano, obsahuje cifru, pocet vsech cifer je: " + pocetCifer + "\nsoucet lichych cifer je: " + soucetLichych);
+                MessageBox.Show("Ano, obsahuje cifru\npocet vsech cifer je: " + pocetCifer + "\nsoucet lichych cifer je: " + soucetLichych);
             }
             else
             {
